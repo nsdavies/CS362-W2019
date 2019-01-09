@@ -1,1 +1,3 @@
-Nicholas Davies; davienic
+Nicholas Davies
+
+This is my assignment-1 submission
