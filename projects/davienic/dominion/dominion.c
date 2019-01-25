@@ -735,7 +735,7 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
     {
     case adventurer://refactored
 
-      drawUntilTreasure(state, currentPlayer, 2);
+      drawUntilTreasure(state, currentPlayer, 3);//bug
       return 0;
 
     case council_room: //refactored
@@ -873,7 +873,7 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
 		
     case smithy://refactored
       //+3 Cards
-      drawCards(state, currentPlayer, 3);
+      drawCards(state, currentPlayer, 4);// bug
 
       //discard card from hand
       discardCard(handPos, currentPlayer, state, 0);
